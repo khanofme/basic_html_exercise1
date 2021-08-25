@@ -1,0 +1,74 @@
+*{
+    
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+div.banner>img{
+    width:960px;
+    height:275px;
+    border: 4px;
+    padding: 1vh;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    }
+nav.nav-bar
+{
+   flex:1;
+ 
+}
+nav.nav-bar>ul{
+    list-style-type: none;
+    display: flex;
+    flex:1;
+    justify-content:center;
+    
+    
+}
+nav.nav-bar>ul>li{
+    border-right: 1px solid black;
+    padding: 4px;
+}
+nav.nav-bar>ul>li:last-child {
+    border-right:0;
+} 
+nav.nav-bar>ul>li>a.links:hover{
+    
+    text-decoration: none;
+}
+div.card-class>ul
+{
+    flex:1;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+    
+}
+div.card-class>ul>div.card>li{
+display: flex;
+border:2px solid black;
+
+}
+div.card-class>ul>div.card>li>img{
+    width:180px;
+    height:200px;
+}
+div.contact
+{
+    font-family: 'Times New Roman';
+    color: forestgreen;
+    font-size:20pt;
+}
+div.about
+{
+    font-family: 'Times New Roman';
+    color:grey;
+    font-size: 20pt;
+}
